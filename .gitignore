@@ -1,0 +1,64 @@
+# =====================================================================
+# Xinyue Liu Lab — .gitignore for proteomics analysis code
+# Data stay on lab storage. Git tracks code, configs and documentation.
+# Always check `git status` before committing.
+# =====================================================================
+
+# ---- Raw and converted MS data -------------------------------------
+*.d/
+*.tdf
+*.tdf_bin
+*.raw
+*.wiff
+*.wiff.scan
+*.mzML
+*.mzXML
+*.mgf
+*.dia
+
+# ---- Search output, spectral libraries, sequence databases ---------
+# (DIA-NN log files such as report.log.txt are small and may be committed)
+*.speclib
+*.parquet
+*.quant
+report*.tsv
+*.fasta
+*.fasta.gz
+
+# ---- Local data, results and machine-specific settings -------------
+data/*
+!data/README.md
+results/*
+!results/README.md
+configs/paths.yml
+
+# ---- Large archives and Office lock files --------------------------
+*.zip
+*.7z
+*.tar.gz
+~$*
+
+# ---- R / RStudio / Quarto ------------------------------------------
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+*_cache/
+.quarto/
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/
+
+# ---- Secrets and OS files ------------------------------------------
+.env
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Small test files are allowed in example_data/ -----------------
+!example_data/**
