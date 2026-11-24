@@ -1,0 +1,7 @@
+# Copy this file to configs/paths.yml (not tracked by Git) and edit for your computer.
+# Read in R with: paths <- yaml::read_yaml("configs/paths.yml")
+
+raw_data_dir: "D:/timsTOF/raw"                 # folder containing .d acquisitions
+diann_output_dir: "Z:/projects/<project>/diann" # DIA-NN report and matrices
+fasta_dir: "Z:/databases/fasta"                 # sequence databases
+results_dir: "results"                          # outputs written by scripts (ignored by Git)
