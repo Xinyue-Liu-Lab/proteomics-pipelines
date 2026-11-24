@@ -1,0 +1,12 @@
+# Normalize line endings so Windows (instrument PC) and macOS/Linux users share clean diffs
+* text=auto
+*.R    text eol=lf
+*.Rmd  text eol=lf
+*.qmd  text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.sh   text eol=lf
+*.bat  text eol=crlf
+*.png  binary
+*.pdf  binary
+*.xlsx binary
