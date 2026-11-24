@@ -1,6 +1,6 @@
 # proteomics-pipelines
 
-Shared analysis code of the **Xinyue Liu Lab** (UNT Health Fort Worth) for mass spectrometry-based proteomics, primarily data acquired on the Bruker nanoElute 2 + timsTOF Pro and searched with DIA-NN.
+Shared analysis code of the **Xinyue Liu Lab** for mass spectrometry-based proteomics, primarily data acquired on the Bruker nanoElute 2 + timsTOF Pro and searched with DIA-NN.
 
 This repository contains reusable code, analysis settings and documentation only. Raw files, search results and sample metadata remain on lab storage (see [Data policy](#data-policy)).
 
@@ -48,4 +48,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Maintainer
 
-Le Sun, Xinyue Liu Lab
+All members in the Liu Lab
