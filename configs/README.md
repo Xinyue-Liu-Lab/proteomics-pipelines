@@ -1,6 +1,6 @@
 # configs/
 
-Analysis settings and records of how data were processed.
+Analysis settings and records of how data were processed, shared by the R and Python code.
 
 - `paths.example.yml` — template for machine-specific file locations. Copy it to `paths.yml` (ignored by Git) and edit it for your computer.
 - `diann/` — one record per DIA-NN search (see `diann/README.md`).

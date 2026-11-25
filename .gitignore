@@ -1,5 +1,5 @@
 # =====================================================================
-# Xinyue Liu Lab — .gitignore for proteomics analysis code
+# Xinyue Liu Lab — .gitignore for proteomics analysis code (R and Python)
 # Data stay on lab storage. Git tracks code, configs and documentation.
 # Always check `git status` before committing.
 # =====================================================================
@@ -32,6 +32,11 @@ results/*
 !results/README.md
 configs/paths.yml
 
+# ---- Exported tables (write them to results/ or lab storage) -------
+peptides.tsv
+proteins.tsv
+run_summary.tsv
+
 # ---- Large archives and Office lock files --------------------------
 *.zip
 *.7z
@@ -53,6 +58,13 @@ renv/lock/
 renv/python/
 renv/sandbox/
 renv/staging/
+
+# ---- Python / Jupyter ----------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
 
 # ---- Secrets and OS files ------------------------------------------
 .env
